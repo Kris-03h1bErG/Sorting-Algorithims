@@ -8,7 +8,7 @@ def bozo_sort(unsorted_list):
     while True:
         if is_sorted(unsorted_list):
             print("list sorted!")
-            break
+            return unsorted_list
         else:
             random.shuffle(unsorted_list)
             print(f"list not sorted shuffling again!: {unsorted_list}")

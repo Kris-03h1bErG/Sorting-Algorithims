@@ -6,7 +6,7 @@ def miracle_sort(unsorted_list):
     while True:
         if is_sorted(unsorted_list):
             print("List sorted!")
-            break 
+            return unsorted_list 
         else:
             is_sorted(unsorted_list)
             print("List not sorted checking again!")
