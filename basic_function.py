@@ -10,6 +10,5 @@ def generate_unsortedlist(length = 10, minimum = 1 , maximum = 100):
     for i in range (0,length):
         unsorted_list.append(random.randint(minimum,maximum))   
     return unsorted_list     
-print(generate_list())
 
 # make a sorted list btw later  
